@@ -1,0 +1,22 @@
+.page-layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+.page-layout .nav-bar {
+  min-width: 15%;
+}
+.page-layout .main-content {
+  width: 84%;
+}
+.page-layout .not-found {
+  color: red;
+  text-align: center;
+  font-size: 30px;
+}
+.page-layout .loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
